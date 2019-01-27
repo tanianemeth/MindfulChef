@@ -41,12 +41,12 @@
     </p></center><br>
       <link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet'>
     <form1> Grocery List Item: <input id="ingredient" type="text" name="ingredient"> </form1>
-    <form2> Expiration Date: <input id="expirationDate" type="date" name="expirationDate"> <form2>
+    <form2> Expiration Date: <input id="expirationDate" type="date" name="expirationDate"> </form2>
     <form3><button id="enter" type="button" name="button">Submit</button>
     </form3>
     <br>
     <br>
-    <ul>
+    <ul id="food-items">
     </ul><br><br><br>
     <form4>
     Select a Dietary Restriction:
@@ -74,10 +74,10 @@
   </form>
 
 <div id="output"  style="display:none">
-    <h3>These are you recipes ordered by expiration date of the ingredient</h3>
+    <h3 class = "recTitle">These are you recipes ordered by expiration date of the ingredient</h3>
     <ul id = "foods">
     </ul>
-    <h3>These ingredients in your grocery list should be used soon:</h3>
+    <h3 class = "recTitle">These ingredients in your grocery list should be used soon:</h3>
     <ul id = "ordered">
     </ul>
 

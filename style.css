@@ -185,3 +185,34 @@ p{
   height: 120%;
   weight: 100%;
 }
+
+#food-items {
+  margin-left : 15%;
+}
+
+#food-items li {
+  float: none;
+}
+.recTitle{
+  font-family: 'Athiti';
+  margin-left: 20%;
+}
+#foods{
+  font-family: "trebuchet ms";
+  margin-left: 22%;
+}
+#ordered{
+  font-family: "trebuchet ms";
+  margin-left: 22%;
+}
+
+#foods li{
+  float: none;
+  width: 100%;
+  padding-bottom: 10px;
+}
+#ordered li{
+  float:none;
+  width: 100%;
+  padding-bottom: 10px;
+}

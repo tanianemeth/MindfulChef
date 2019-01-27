@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>SmartFood</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="backgroundImg">
+
+    <div class="v1"></div>
+    <div class="v2"></div>
+
+  <center><h1> <link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet'> MINDFUL CHEF </h1> </center>
+<br><br><br>
+
+  <form id="my-submit-form">
+    <center> <img src="https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80"
+    alt="ScrambledEggs" width="200"
+    height="280">
+    <img src="https://images.unsplash.com/photo-1504185945330-7a3ca1380535?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=921&q=80"
+    alt="Burguer" width="200"
+    height="280">
+    <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80"
+    alt="Healthyfood" width="200"
+    height="280">
+    <img src="https://images.unsplash.com/photo-1505253304499-671c55fb57fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+    alt="Breakfast" width="200"
+    height="280">
+    </center>
+    <br>
+    <center><p><link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet'>
+      mind·ful chef  /ˈmīn(d)fəl SHef/
+    </p></center>
+    <center><p> <link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet'>
+      Mindful Chef is designed to maximize your meals and minimize your waste.
+      No more worrying about food just sitting in your fridge, in danger of going bad, whether you don't know what to make with it, or you just simply forget!
+      With Mindful Chef we calculate the what ingredients you should use to make sure you get the most out of your groceries and your wallet.
+
+    </p></center><br>
+      <link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet'>
+    <form1> Grocery List Item: <input id="ingredient" type="text" name="ingredient"> </form1>
+    <form2> Expiration Date: <input id="expirationDate" type="date" name="expirationDate"> <form2>
+    <form3><button id="enter" type="button" name="button">Submit</button>
+    </form3>
+    <br>
+    <br>
+    <ul>
+    </ul><br><br><br>
+    <form4>
+    Select a Dietary Restriction:
+  </form4>
+    <select id ="restriction">
+      <option value="Vegan">Vegan</option>
+      <option value="Vegetarian">Vegetarian</option>
+      <option value="Dairy free">Dairy free</option>
+      <option value="Gluten free">Gluten free</option>
+      <option value="None">None</option>
+    </select>
+    <form5>
+    Select a meal:
+  </form5>
+    <select id="meal">
+      <option value="Breakfast">Breakfast</option>
+      <option value="Lunch">Lunch</option>
+      <option value="Dinner">Dinner</option>
+    </select>
+    <br>
+    <br><br>
+    <form6>
+    <button id="submit" type="button" name="button">Get Recipe!</button>
+  </form6>
+  </form>
+
+<div id="output"  style="display:none">
+    <h3>These are you recipes ordered by expiration date of the ingredient</h3>
+    <ul id = "foods">
+    </ul>
+    <h3>These ingredients in your grocery list should be used soon:</h3>
+    <ul id = "ordered">
+    </ul>
+
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
